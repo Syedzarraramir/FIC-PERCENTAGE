@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Friends Website</title>
+    <link rel="stylesheet" href="./percentage.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <span id="date"></span>
+            </div>
+            <div class="header-right">
+                <a href="mailto:szarraramir@gmail.com">Email Us</a>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#Contactus">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section class="welcome-section">
+                <h1>Welcome, Friends! Get Ready for Percentage %</h1>
+                <input id="namef" type="text" placeholder="Your Name">
+                <p id="confirmfriend">Your Data will be appear with your Name </p>
+                <p id="buyedthing">What You Have</p>
+                <p id="percent">Get Ready</p>
+    <script src="./percentage.js"></script>
+    <script src="./calculation.js"></script>
+    
+    <!-- <button style="width: 100%; color: blue; height: 50px;" type="button" onclick="calculation()">Check Percentage</button> -->
+    <button style="width: 100%; color: blue; height: 50px;" type="button" onclick="nameinfo() + calculation()">Click</button>
+    <button style="width: 100%; height: 50px; color: blue;" type="submit0.">Refresh</button>        
+</form>
+
+
+            </section>
+
+   
+        </div>
+    </main>
+
+    <footer>
+        <div id="Contactus" class="container">
+            <p>&copy; 2024 Syed Zarrar Amir. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('date').innerText = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>
