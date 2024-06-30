@@ -68,8 +68,8 @@
         }
 else
  {
-
-    namres.innerHTML = "Your Name does Not Match and if you want to Register your Identity you have to email us but also give your introduction." ;
+var doesnotmatch = prompt("Please Enter Your Name Again");
+    namres.innerHTML = "Your Name " + doesnotmatch + " is not Register with us kindly click on email and Send Your's Introduction to us." ;
     namres.style.color = "red";
     namres.style.fontSize = "30px";
 
