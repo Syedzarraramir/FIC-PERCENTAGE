@@ -52,6 +52,20 @@
             namres.style.fontSize = "30px";
 
         }
+        
+        else if ((namefriend === "ZARRAR") || (namefriend === "Zarrar" ) || (namefriend === "zarrar") || (namefriend === "Syed Zarrar Amir") || (namefriend === "syed zarrar amir")) {
+            namres.innerHTML = "Syed Zarrar Amir You are Member Of X Fazians Wattsapp group and this amazing website will tell you the percentage how much you have to pay if you buy something";
+            namres.style.color = "green";
+            namres.style.fontSize = "30px";
+
+        }
+        
+        else if ((namefriend === "MEHTAB") || (namefriend === "Mehtab" ) || (namefriend === "mehtab") || (namefriend === "Mehtab Alam") || (namefriend === "mehtab alam")) {
+            namres.innerHTML = "Assalam o Alaykom Sir Mehtab Alam this amazing website will tell you the percentage how much you have to pay if you buy something";
+            namres.style.color = "green";
+            namres.style.fontSize = "30px";
+
+        }
 else
  {
 
